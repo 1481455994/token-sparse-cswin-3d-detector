@@ -1,0 +1,3 @@
+This release contains a locally packaged copy of MONAI DynUNet-derived code
+(src/tscswin_detector/dynunet.py). That file retains its Apache-2.0 header and
+license notice. MONAI is available at https://github.com/Project-MONAI/MONAI.

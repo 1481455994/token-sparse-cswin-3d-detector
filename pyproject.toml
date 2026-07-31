@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tscswin-detector"
+version = "0.1.0"
+description = "Token-sparse CSWin DynUNet anchor-free detector for 3D lesion detection"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = ["torch>=1.12.0", "monai>=1.2.0", "numpy>=1.23.0"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
