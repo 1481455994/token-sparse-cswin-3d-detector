@@ -1,12 +1,5 @@
 # Token-Sparse CSWin DynUNet Detector
 
-Minimal model-only release for the paper implementation. It contains the
-Token-sparse CSWin + SE DynUNet anchor-free 3D lesion detector, its detection
-head, and the loss/post-processing code required by the model's `forward`.
-
-It intentionally excludes datasets, preprocessing, training loops, evaluation
-code, experiment configurations, checkpoints, and any patient or derived data.
-
 ## Install
 
 ```bash
